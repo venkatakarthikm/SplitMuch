@@ -73,7 +73,7 @@ function App() {
         const controller = new AbortController();
         const timeoutId = setTimeout(() => controller.abort(), 5000);
         
-        const response = await fetch(`${process.env.REACT_APP_API_URL || 'http://localhost:5000'}/api/health`, {
+        const response = await fetch(`${process.env.REACT_APP_API_URL || 'http://localhost:5000'}/health`, {
           signal: controller.signal,
         });
         
