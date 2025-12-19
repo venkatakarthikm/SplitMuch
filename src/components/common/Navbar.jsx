@@ -70,7 +70,7 @@ const Navbar = () => {
           <div className="flex items-center space-x-8">
             <Link to="/dashboard" className="flex items-center space-x-2">
               <img src="/splitmuch.png" alt="Logo" className="w-8 h-8 object-contain" />
-              <span className="text-xl font-bold text-gray-800 tracking-tight">splitmuch</span>
+              <span className="text-xl font-bold text-gray-800 tracking-tight">SplitMuch</span>
             </Link>
             
             <div className="flex items-center space-x-6">
